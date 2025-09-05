@@ -1,0 +1,73 @@
+<h2 id="schedule">Schedule</h2>
+<table class="my-0 rounded-xl overflow-hidden">
+  <thead>
+    <tr class="even:bg-gray-200 odd:bg-gray-100 dark:even:bg-gray-600 dark:odd:bg-gray-700">
+      <th class="pl-3">Week</th>
+      <th class="py-2">Date</th>
+      <th class="py-2">Topic</th>
+      <th class="py-2">Assignment</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% from 'homepage/scheduleMacro.html' import weekM %}
+
+    {{ weekM(1, '1/31', 'Intro to Python, Github Classrooms', ['P1 assigned'], ['https://classroom.github.com/a/EukAcqcU']) }}
+    {{ weekM(2, '2/7', 'Intro to Flask', ['P1 due', 'P2 assigned'], ['https://www.gradescope.com/courses/967667/assignments/5671391', 'https://classroom.github.com/a/KcyDDQ8l']) }}
+    {{ weekM(3, '2/14', 'Forms') }}
+    {{ weekM(4, '2/21', 'MongoDB setup (interactive)', ['P2 due', 'P3 assigned'], ['https://www.gradescope.com/courses/967667/assignments/5671390', 'https://classroom.github.com/a/IR2jcSd1']) }}
+    {{ weekM(5, '2/28', 'State Management (users)') }}
+    {{ weekM(6, '3/7', 'Files, Blueprints, Errors', ['P3 due', 'P4 assigned'], ['https://www.gradescope.com/courses/967667/assignments/5671392', 'https://classroom.github.com/a/xkNDvmYJ']) }}
+    {{ weekM(7, '3/14', 'Spring break 🎉') }}
+    {{ weekM(8, '3/21', 'Spring break :)') }}
+    {{ weekM(9, '3/28', 'Final Project discussion', ['P4 due', 'Proposal assigned'], ['https://www.gradescope.com/courses/967667/assignments/5671393', 'https://github.com/CMSC388J-UMD-S25/388jspring2025/blob/master/projects/final.md']) }}
+    {{ weekM(10, '4/4', 'Deployments (interactive)', ['Final Project assigned'], ['https://github.com/CMSC388J-UMD-S25/388jspring2025/blob/master/projects/final.md']) }}
+    {{ weekM(11, '4/11', 'APIs', ['Proposal due'], ['https://www.gradescope.com/courses/967667/assignments/5671394']) }}
+    {{ weekM(12, '4/18', 'CSS & TailwindCSS, OH') }}
+    {{ weekM(13, '4/25', 'TailwindCSS, OH') }}
+    {{ weekM(14, '5/2', 'OH', ['Final Due', 'Course Evals open 5/1'], ['https://www.gradescope.com/courses/967667/assignments/5671395', 'https://www.courseexp.umd.edu/']) }}
+    {{ weekM(15, '5/9', 'OH', ['Course Evals due 5/14'], ['https://www.courseexp.umd.edu/']) }}
+
+    <!-- CSS & Tailwind -->
+    <!-- <tr class="even:bg-gray-200 odd:bg-gray-100 dark:even:bg-gray-600 dark:odd:bg-gray-700">
+      <td class="pl-3 pb-2">7</td>
+      <td class="pb-2">03/08</td>
+      <td style="vertical-align: middle;">
+        <span class="flex flex-col sm:flex-row sm:items-center gap-2">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"
+            class="w-fit bg-[#55b2f688] dark:bg-[#1572B688] hover:bg-[#55b2f6] dark:hover:bg-[#1572B6] duration-300 h-6 flex items-center rounded-full gap-1 pl-2.5 pr-3 no-underline sm:hover:ring-1 ring-black dark:ring-white active:duration-75 active:translate-y-0.5 hover:shadow-md active:shadow-none">
+            {% include "icons/css.html" %}
+            CSS
+          </a>
+          <a href="https://tailwindcss.com/" target="_blank"
+            class="w-fit bg-[#26D6F488] dark:bg-[#06B6D488] hover:bg-[#26D6F4] dark:hover:bg-[#1090a8]  duration-300 h-6 flex items-center rounded-full gap-1 pl-2 pr-3 no-underline sm:hover:ring-1 ring-black dark:ring-white active:duration-75 active:translate-y-0.5 hover:shadow-md dark:hover:shadow-[0_0.5rem_1rem_-0.25rem_#fff4,inset_0_0_1rem_-0.25rem_#fff4] active:shadow-none">
+            {% include "icons/tailwind.html" %}
+            Tailwind
+          </a>
+        </span>
+      </td>
+      <td class="pb-2"></td>
+    </tr> -->
+ 
+    <!-- Svelte & React -->
+    <!-- <tr class="even:bg-gray-200 odd:bg-gray-100 dark:even:bg-gray-600 dark:odd:bg-gray-700">
+      <td class="pl-3">14</td>
+      <td>04/26</td>
+      <td style="vertical-align: middle;">
+        <span class="flex flex-col sm:flex-row sm:items-center gap-2">
+          APIs,
+          <a href="https://svelte.dev/" target="_blank" class="w-fit text-white bg-gradient-to-br from-[#FF3E00] to-[#f96844] duration-300 h-6 flex items-center rounded-full gap-1 pl-2.5 pr-3 no-underline active:duration-75 active:translate-y-0.5 active:translate-x-0.5 hover:-translate-y-0.5 hover:-translate-x-0.5 hover:shadow-[0.25rem_0.25rem_0rem_0rem_#ff9874] active:shadow-none">
+            {% include "icons/svelte.html" %}
+            Svelte
+          </a>
+          <a href="https://react.dev/" target="_blank" class="w-fit text-white bg-gradient-to-br from-[#61DAFB] to-[#41BADB] duration-300 h-6 flex items-center rounded-full gap-1 pl-2.5 pr-3 no-underline active:duration-75 active:translate-y-0.5 active:translate-x-0.5 hover:-translate-y-0.5 hover:-translate-x-0.5 hover:shadow-[0.25rem_0.25rem_0rem_0rem_#81FAFB] active:shadow-none">
+            {% include "icons/react.html" %}
+            React
+          </a>
+        </span>
+      </td>
+      <td>
+      </td>
+    </tr>
+  -->
+  </tbody>
+</table>

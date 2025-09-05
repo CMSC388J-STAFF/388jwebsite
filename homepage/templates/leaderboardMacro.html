@@ -1,0 +1,164 @@
+{% macro leaderboard() %}
+
+<h3 class="text-xl text-balance my-0 -mb-3">Thanks for an awesome semester! 🎉</h3>
+<div>Chuck & Nikita signing off, GL on Finals! 👋
+  <!-- <a target="_blank" href="https://www.courseexp.umd.edu/"
+  class="duration-150 text-red-500 dark:text-red-400 font-medium dark:hover:text-blue-300 hover:text-blue-700">
+    Course Evals
+  </a>! :) -->
+</div>
+
+<div class="flex flex-col gap-2 relative overflow-visible group/main">
+  <div class="hidden md:block absolute top-4 left-40 h-96 -translate-y-full w-4 bg-blue-400 group-hover/main:bg-yellow-100 opacity-50 blur-xl -rotate-[30deg] duration-1000 ease-out group-hover/main:rotate-[30deg] origin-bottom pointer-events-none group-hover/main:scale-x-[3] group-hover/main:scale-y-150 rounded-full"></div>
+  <div class="hidden md:block absolute top-4 right-40 h-96 -translate-y-full w-4 bg-blue-400 group-hover/main:bg-yellow-100 opacity-50 blur-xl rotate-[30deg] duration-1000 ease-out group-hover/main:-rotate-[30deg] origin-bottom pointer-events-none group-hover/main:scale-x-[3] group-hover/main:scale-y-150 rounded-full"></div>
+  <div class="absolute -rotate-12 -top-12 left-0 text-6xl z-10" style="filter: drop-shadow(0 0 2rem #ffcc00)">👑</div>
+  <a target="_blank" href="https://hangouthub-koky.onrender.com/" class="rounded-t-3xl rounded-b-md bg-gradient-to-br from-[#ffcc00] to-[#cc9900] text-white p-4 flex items-center justify-between relative group no-underline overflow-hidden">
+    <div class="flex gap-4 items-center truncate max-w-full">
+      <h1 class="m-0 font-serif text-8xl opacity-50 font-black absolute left-6 -top-0 duration-1000 group-hover:-translate-y-3 ease-out text-white">1</h1>
+      <div class="m-0 font-serif text-4xl font-black text-white">1</div>
+      <div class="underline truncate px-12">https://hangouthub-koky.onrender.com/</div>
+    </div>
+    <div class="flex gap-2">
+      {% include "icons/maps.html" %}
+    </div>
+  </a>
+  <a target="_blank" href="https://green-genius-wine.vercel.app/auth/login?next=%2Fdashboard%2Fhome" class="rounded-md bg-gradient-to-br from-gray-300 to-gray-500 text-white p-4 flex items-center justify-between relative group no-underline overflow-hidden">
+    <div class="flex gap-4 items-center truncate max-w-full">
+      <h1 class="m-0 font-serif text-8xl opacity-50 font-black absolute left-6 -top-0 duration-1000 group-hover:-translate-y-3 ease-out text-white">2</h1>
+      <div class="m-0 font-serif text-4xl font-black text-white">2</div>
+      <div class="underline pl-12 pr-6 truncate">https://green-genius-wine.vercel.app/auth/login?next=%2Fdashboard%2Fhome</div>
+    </div>
+    <div class="flex gap-2 z-10 text-3xl duration-500 group-hover:scale-150 group-hover:rotate-12">
+      {% include "icons/leaf.html" %}
+    </div>
+  </a>
+  <a target="_blank" href="https://polaris-hazel-nine.vercel.app/" class="rounded-md bg-gradient-to-br from-[#A87143] to-[#7f4a00] text-white p-4 flex items-center justify-between relative group no-underline overflow-hidden">
+    <div class="flex gap-4 items-center truncate max-w-full">
+      <h1 class="m-0 font-serif text-8xl opacity-50 font-black absolute left-6 -top-0 duration-1000 group-hover:-translate-y-3 ease-out text-white">3</h1>
+      <div class="m-0 font-serif text-4xl font-black text-white">3</div>
+      <div class="underline pl-12 pr-12 truncate z-10">https://polaris-hazel-nine.vercel.app/</div>
+    </div>
+    <div class="text-3xl duration-500 group-hover:scale-150 group-hover:rotate-90">
+      {% include "icons/openai.html" %}
+    </div>
+    <!-- <div class="absolute w-full h-[calc(100%+2rem)] pointer-events-none opacity-80 -top-2 -right-3 [mask-image:linear-gradient(to_right,transparent_69%,red)] group-hover:translate-x-4 group-hover:-translate-y-4 duration-1000"
+      style="
+        background: url({{ url_for('static', filename='paw.svg') }});
+        background-size: 32px 32px;
+      "
+    ></div>
+    <div class="absolute opacity-0 right-16 top-1/2 -translate-y-1/2 group-hover:-translate-x-2 group-hover:opacity-100 duration-300 scale-90 group-hover:scale-100">Meow!</div>
+    <img class="absolute opacity-60 group-hover:opacity-100 group-hover:scale-110 right-2 top-1/2 -translate-y-1/2 group-hover:rotate-12 duration-300 h-24 w-auto m-0" src="{{ url_for('static', filename='cat.png') }}" /> -->
+  </a>
+  <a target="_blank" href="https://ai-quizes-cmsc388j.onrender.com/index" class="rounded-md bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-200 p-4 flex items-center justify-between relative group no-underline overflow-hidden">
+    <h1 class="m-0 font-serif text-8xl opacity-50 font-black absolute left-6 -top-0 duration-1000 group-hover:-translate-y-3 ease-out">4</h1>
+    <div class="flex gap-4 items-center truncate max-w-full">
+      <h1 class="m-0 font-serif text-4xl font-black">4</h1>
+      <div class="underline pl-12 pr-6 truncate">https://ai-quizes-cmsc388j.onrender.com/index</div>
+    </div>
+    <div class="text-3xl duration-500 group-hover:scale-150 group-hover:-translate-x-4 group-hover:rotate-12 z-10">
+      💡
+    </div>
+    <div class="bg-[#f8e541] rounded-full h-16 w-16 blur-xl duration-500 group-hover:scale-[3] group-hover:translate-x-3 group-hover:rotate-12 absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 z-2"></div>
+  </a>
+  <a target="_blank" href="https://studybuddy-3a2f.onrender.com/" class="rounded-md bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-200 p-4 flex items-center justify-between relative group no-underline overflow-hidden">
+    <h1 class="m-0 font-serif text-8xl opacity-50 font-black absolute left-6 -top-0 duration-1000 group-hover:-translate-y-3 ease-out">5</h1>
+    <div class="flex gap-4 items-center truncate max-w-full">
+      <h1 class="m-0 font-serif text-4xl font-black">5</h1>
+      <div class="underline pl-12 pr-6 truncate">https://studybuddy-3a2f.onrender.com/</div>
+    </div>
+    <div class="z-10 text-3xl duration-500 group-hover:scale-150 group-hover:-translate-x-4 group-hover:rotate-12">
+      {% include "icons/books.html" %}
+    </div>
+    <div class="bg-gray-100 rounded-full h-16 w-16 blur-xl duration-500 group-hover:scale-[3] group-hover:translate-x-3 group-hover:rotate-12 absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2"></div>
+  </a>
+  <a target="_blank" href="https://stock-tracker-388j.vercel.app/" class="rounded-md bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-200 p-4 flex items-center justify-between relative group no-underline overflow-hidden">
+    <h1 class="m-0 font-serif text-8xl opacity-50 font-black absolute left-6 -top-0 duration-1000 group-hover:-translate-y-3 ease-out">6</h1>
+    <div class="flex gap-4 items-center truncate max-w-full">
+      <h1 class="m-0 font-serif text-4xl font-black">6</h1>
+      <div class="underline pl-12 pr-6 truncate">https://stock-tracker-388j.vercel.app/</div>
+    </div>
+    
+    <div class=" flex-row -space-x-10 flex -translate-x-4 text-3xl duration-500 group-hover:scale-150 group-hover:-translate-x-4 group-hover:rotate-12 z-10">
+      {% include "icons/money.html" %}
+      {% include "icons/money.html" %}
+      {% include "icons/money.html" %}
+    </div>
+    <div class="bg-[#1DB954] rounded-full h-16 w-16 blur-xl duration-500 group-hover:scale-[3] group-hover:translate-x-3 group-hover:rotate-12 absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2"></div>
+  </a>
+  <a target="_blank" href="https://three88j-final-project-ss3d.onrender.com/" class="rounded-md bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-200 p-4 flex items-center justify-between relative group no-underline overflow-hidden">
+    <h1 class="m-0 font-serif text-8xl opacity-50 font-black absolute left-6 -top-0 duration-1000 group-hover:-translate-y-3 ease-out">7</h1>
+    <div class="flex gap-4 items-center truncate max-w-full">
+      <h1 class="m-0 font-serif text-4xl font-black">7</h1>
+      <div class="underline pl-12 pr-6 truncate">https://three88j-final-project-ss3d.onrender.com/</div>
+    </div>
+    <div class="text-3xl duration-500 group-hover:scale-150 group-hover:-translate-x-4 group-hover:rotate-12 z-10">
+        🍔
+      </div>
+      <div class="bg-orange-400 rounded-full h-16 w-16 blur-xl duration-500 group-hover:scale-[3] group-hover:translate-x-3 group-hover:rotate-12 absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2"></div>
+  </a>
+  <a target="_blank" href="https://afleetingmoment.vercel.app/" class="rounded-md bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-200 p-4 flex items-center justify-between relative group no-underline overflow-hidden">
+    <h1 class="m-0 font-serif text-8xl opacity-50 font-black absolute left-6 -top-0 duration-1000 group-hover:-translate-y-3 ease-out">8</h1>
+    <div class="flex gap-4 items-center truncate max-w-full">
+      <h1 class="m-0 font-serif text-4xl font-black">8</h1>
+      <div class="underline pl-12 pr-6 truncate">https://afleetingmoment.vercel.app/</div>
+    </div>
+    <div class="flex gap-2 text-3xl duration-500 group-hover:scale-150 group-hover:rotate-90 z-10">
+      {% include "icons/globe.html" %}
+    </div>
+    <div class="bg-[#1DB954] rounded-full h-16 w-16 blur-xl duration-500 group-hover:scale-[3] group-hover:translate-x-3 group-hover:rotate-12 absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2"></div>
+  <a target="_blank" href="https://boringapp-sooty.vercel.app/" class="rounded-md bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-200 p-4 flex items-center justify-between relative group no-underline overflow-hidden">
+    <h1 class="m-0 font-serif text-8xl opacity-50 font-black absolute left-6 -top-0 duration-1000 group-hover:-translate-y-3 ease-out">9</h1>
+    <div class="flex gap-4 items-center truncate max-w-full">
+      <h1 class="m-0 font-serif text-4xl font-black">9</h1>
+      <div class="underline pl-12 pr-6 truncate">https://boringapp-sooty.vercel.app/</div>
+    </div>
+    <div class="flex gap-2">
+      {% include "icons/maps.html" %}
+    </div>
+  </a>
+  <a target="_blank" href="https://final-beta-blue.vercel.app/" class="rounded-md bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-200 p-4 flex items-center justify-between relative group no-underline overflow-hidden">
+    <h1 class="m-0 font-serif text-8xl opacity-50 font-black absolute left-6 -top-0 duration-1000 group-hover:-translate-y-3 ease-out">10</h1>
+    <div class="flex gap-4 items-center truncate max-w-full">
+      <h1 class="m-0 font-serif text-4xl font-black">10</h1>
+      <div class="underline pl-12 pr-6 truncate">https://final-beta-blue.vercel.app/</div>
+    </div>
+    <div class="z-10 text-3xl duration-500 group-hover:scale-150 group-hover:-translate-x-4 group-hover:rotate-12">
+      {% include "icons/book.html" %}
+    </div>
+    <div class="bg-gray-100 rounded-full h-16 w-16 blur-xl duration-500 group-hover:scale-[3] group-hover:translate-x-3 group-hover:rotate-12 absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2"></div>
+  <a target="_blank" href="https://eruk.onrender.com/" class="rounded-md bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-200 p-4 flex items-center justify-between relative group no-underline overflow-hidden">
+    <h1 class="m-0 font-serif text-8xl opacity-50 font-black absolute left-6 -top-0 duration-1000 group-hover:-translate-y-3 ease-out">11</h1>
+    <div class="flex gap-4 items-center truncate max-w-full">
+      <h1 class="m-0 font-serif text-4xl font-black">11</h1>
+      <div class="underline pl-12 pr-6 truncate">https://eruk.onrender.com/ </div>
+    </div>
+     <div class="z-10 text-3xl duration-500 group-hover:scale-150 group-hover:-translate-x-4 group-hover:rotate-12">
+      {% include "icons/sports.html" %}
+    </div>
+    <div class="bg-blue-400 rounded-full h-16 w-16 blur-xl duration-500 group-hover:scale-[3] group-hover:translate-x-3 group-hover:rotate-12 absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2"></div>
+  </a>
+  <a target="_blank" href="https://books-site-beta.vercel.app/login" class="rounded-md bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-200 p-4 flex items-center justify-between relative group no-underline overflow-hidden">
+    <h1 class="m-0 font-serif text-8xl opacity-50 font-black absolute left-6 -top-0 duration-1000 group-hover:-translate-y-3 ease-out">12</h1>
+    <div class="flex z-10 gap-4 items-center truncate max-w-full">
+      <h1 class="m-0 font-serif text-4xl font-black">12</h1>
+      <div class="underline pl-12 pr-6 truncate">https://books-site-beta.vercel.app/login</div>
+    </div>
+    <div class="z-10 text-3xl duration-500 group-hover:scale-150 group-hover:-translate-x-4 group-hover:rotate-12">
+      {% include "icons/book.html" %}
+    </div>
+    <div class="bg-gray-400 rounded-full h-16 w-16 blur-xl duration-500 group-hover:scale-[3] group-hover:translate-x-3 group-hover:rotate-12 absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2"></div>
+  </a>
+  <a target="_blank" href="https://p5-git-main-abby-jenkins-projects.vercel.app/" class="rounded-md bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-200 p-4 flex items-center justify-between relative group no-underline overflow-hidden">
+    <h1 class="m-0 font-serif text-8xl opacity-50 font-black absolute left-6 -top-0 duration-1000 group-hover:-translate-y-3 ease-out">13</h1>
+    <div class="flex gap-4 items-center truncate max-w-full">
+      <h1 class="m-0 font-serif text-4xl font-black">13</h1>
+      <div class="underline pl-12 pr-6 truncate">https://p5-git-main-abby-jenkins-projects.vercel.app/</div>
+    </div>
+    <div class="z-10 text-3xl duration-500 group-hover:scale-150 group-hover:-translate-x-4 group-hover:rotate-12">
+      {% include "icons/movie.html" %}
+    </div>
+    <div class="bg-gray-100 rounded-full h-16 w-16 blur-xl duration-500 group-hover:scale-[3] group-hover:translate-x-3 group-hover:rotate-12 absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2"></div>
+  </a>
+</div>
+{% endmacro %}
