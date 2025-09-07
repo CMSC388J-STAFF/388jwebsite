@@ -5,21 +5,18 @@
 {{ nav(url_for('index'), url_for('index') + '#schedule', url_for('index') + '#office-hours', '#') }}
 
 <section class="flex flex-col gap-6 mt-6 pb-12 text-center">
-  {% from 'leaderboardMacro.html' import leaderboard %}
-  {{ leaderboard() }}
-
   {% from 'projects/projectMacro.html' import projectComponent %}
 
   {{ projectComponent(
-    'https://classroom.github.com/a/9aR_ryE1',
+    'https://classroom.github.com/a/FUZj7oGr',
     'p1', 'P1: Python Primer',
-    'https://github.com/CMSC388J-UMD-S25/388jspring2025/blob/master/projects/project01.md',
-    'https://www.gradescope.com/courses/967667/assignments/5671391',
-    'Jan 27', 'Feb 7',
+    'https://github.com/CMSC388J-UMD-Fall2025/388jfall2025/blob/master/projects/project01.md',
+    'https://www.gradescope.com/courses/1117091/assignments/6669744',
+    'Sep 5', 'Sep 19',
     null,
-    'https://docs.google.com/presentation/d/16j8_CzFfI99ouB2yQJjAAcXHUeH2wxA_/edit?usp=sharing&ouid=113477169604682495832&rtpof=true&sd=true'
+    'https://388jtextbook.vercel.app/docs/Python/python-primer'
   )}}
-  {{ projectComponent(
+  <!-- {{ projectComponent(
     'https://classroom.github.com/a/KcyDDQ8l',
     'p2', 'P2: Pokedex',
     'https://github.com/CMSC388J-UMD-S25/388jspring2025/blob/master/projects/project02.md',
@@ -47,7 +44,7 @@
     'https://p4.aspear.cs.umd.edu/',
     'https://docs.google.com/presentation/d/1HcOB-Y_4AQZPQzrB0wdk1sZaELwgXWRG/edit?usp=drive_link&ouid=113477169604682495832&rtpof=true&sd=true',
     'https://docs.google.com/presentation/d/1UOEgjKSPr3i6jo8of5cK3J4ZJaZ_zY7U/edit?usp=drive_link&ouid=113477169604682495832&rtpof=true&sd=true'
-  )}}
+  )}} -->
   <!-- Tailwind Practice Project  -->
   <!-- {{ projectComponent('https://classroom.github.com/a/VYRPjVNU', 'p5', 'P5: ✨ Pretti Pokedex 💫',
   'https://github.com/CMSC388J-UMD-F24/388jfall2024/blob/master/fall2024/projects/project05.md',
@@ -57,13 +54,13 @@
   'https://docs.google.com/presentation/d/1wm1V3PvjS75PuYA5-BqNxPgARcVrYMNn6qnfTeQOFwQ/edit?usp=drive_link'
   )}} -->
   <!-- Final Project -->
-  {{ projectComponent('https://github.com/CMSC388J-UMD-S25/388jspring2025/blob/master/projects/howtosubmit.md', 'fp', 'Final Project: 🚀',
+  <!-- {{ projectComponent('https://github.com/CMSC388J-UMD-S25/388jspring2025/blob/master/projects/howtosubmit.md', 'fp', 'Final Project: 🚀',
   null,
   null,
   'Apr 4', 'May 2',
   null,
   'https://docs.google.com/presentation/d/1EMX-FcojNlsBiswCIDBYYp2ptA2ze5d-cCF-v75aSsI/edit?usp=sharing',
-  )}}
+  )}} -->
 </section>
 
 <div class="w-full text-center pb-12 font-bold">Start early!<br/>🐱</div>
